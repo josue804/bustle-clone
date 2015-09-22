@@ -1,0 +1,22 @@
+
+
+.jumbotron {
+  height: 450px;
+  max-width: 100%;
+  background: url('http://wbcsd.typepad.com/.a/6a00d83420c49153ef01b7c781a9b2970b-pi') ;
+  background-size: auto 100%;
+}
+
+
+
+.news {
+  background-color: rgba(0, 0, 0, .05);
+  overflow: hidden;
+  margin: 10px 0 10px 0;
+  float: left;
+  border-radius: 10px;
+}
+
+.info {
+  padding: 0 0 0 22px;
+}

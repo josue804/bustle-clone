@@ -1,0 +1,30 @@
+{{outlet}}
+  <div class="navbar navbar-default navbar-fixed-top">
+      <div class='container-fluid'>
+      <h1>Bustle</h1>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='jumbotron col-md-8'>
+    </div>
+    <div class="jumbotron col-md-4">
+    </div>
+  </div>
+  <div class="container">
+
+  <div class="row">
+    {{#each model as |news|}}
+      {{news-tile news=news}}
+    {{/each}}
+  </div>
+
+    <!-- <div class="col-md-4">
+      <h3>Hello</h3>
+    </div>
+    <div class='col-md-4'>
+      <h2>Hello2</h2>
+    </div>
+    <div class='col-md-4'>
+      <h2>Hello3</h2>
+    </div> -->
+</div>
